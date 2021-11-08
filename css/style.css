@@ -22,6 +22,13 @@ a {
   margin: 0 auto;
 }
 
+.title {
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  line-height: 130%;
+}
+
 .header {
   background-image: url('../images/header-bg.jpg');
   background-size: cover;
@@ -131,4 +138,93 @@ a {
   padding: 10px 19px 14px;
   border: 1px solid #d9d9de;
   border-top: none;
+}
+
+.travel-info {
+  background-image: url('../images/info-bg.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding: 32px 0 51px;
+}
+
+.travel-info__title {
+  color: #fff;
+  margin-bottom: 52px;
+}
+
+.travel-info__items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 54px 67px;
+  line-height: 130%;
+}
+
+.travel-info__item {
+  max-width: 232px;
+}
+
+.travel-info__text {
+  color: #fff;
+  font-size: 16px;
+}
+
+.travel-info__img {
+  margin-bottom: 15px;
+}
+
+.offers {
+  margin: 98px 82px;
+}
+
+.offers__title {
+  margin-bottom: 42px;
+}
+
+.offers__items {
+  color: #fff;
+  font-size: 16px;
+  line-height: 130%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 32px;
+  border-bottom: 1px solid #d9d9de;
+}
+
+.offers__name {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.offers__name--big {
+  font-size: 24px;
+  line-height: 130%;
+}
+
+.offers__price {
+  font-weight: bold;
+  margin-top: auto;
+}
+
+.offers__link {
+  padding: 16px 24px 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 256px;
+}
+
+.offers__link:nth-child(3),
+.offers__link:nth-child(6) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.offers__country,
+.offers__days {
+  margin-top: 15px;
 }
