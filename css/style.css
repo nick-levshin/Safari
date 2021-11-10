@@ -484,10 +484,13 @@ a {
 .footer__item-text {
   opacity: 0.8;
   font-weight: 400;
+  line-height: 170%;
 }
 
 .footer__policy {
   text-decoration: underline;
+  padding-top: 3px;
+  display: inline-block;
 }
 
 .footer__info {
@@ -500,4 +503,8 @@ a {
 
 .footer__phone {
   width: 209px;
+}
+
+.footer__item-title {
+  margin-bottom: 3px;
 }
