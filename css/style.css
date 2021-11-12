@@ -130,7 +130,7 @@ a {
 }
 
 .direction__item {
-  max-width: 256px;
+  width: 256px;
 }
 
 .direction__title {
@@ -491,6 +491,7 @@ a {
   text-decoration: underline;
   padding-top: 3px;
   display: inline-block;
+  opacity: 0.8;
 }
 
 .footer__info {
@@ -507,4 +508,8 @@ a {
 
 .footer__item-title {
   margin-bottom: 3px;
+}
+
+.menu__btn {
+  display: none;
 }
