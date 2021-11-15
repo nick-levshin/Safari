@@ -238,6 +238,10 @@ a {
   margin-bottom: 46px;
 }
 
+.map__iframe {
+  width: 100%;
+}
+
 .about {
   padding-bottom: 100px;
 }
@@ -458,6 +462,7 @@ a {
   border: 2px solid #c4c4c4;
   margin-left: -45px;
   cursor: pointer;
+  display: block;
 }
 
 .footer {
